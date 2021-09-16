@@ -20,4 +20,4 @@ transformar esse algoritmo em JavaScript.
 
 ### Screenshot
 ------------------------------------------------------------------------------------
-![screenshot](/screenshot.jpg)
+![screenshot](https://github.com/Jonatas26lima/curso_frontend_GoBeyond/blob/main/desafio_02/screenshot.jpg)
