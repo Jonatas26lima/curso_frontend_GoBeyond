@@ -1,0 +1,73 @@
+.hero {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  max-width:1280px;
+}
+
+.hero-background {
+  height:10rem;
+  width:100%;
+  border-radius: 0 2rem 2rem;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width:1024px) {
+  .hero-background {
+    height:220px;
+  }
+}
+
+.picture {
+  margin-top:-90px;
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #883939;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.social{
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.whatsApp{
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  padding: .5rem;
+  border-radius: 3px;
+}
+
+.linkedin{
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  padding: .5rem;
+  border-radius: 3px;
+  margin: 0 1rem;
+}
+
+.github{
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  padding: .5rem;
+  border-radius: 3px;
+}

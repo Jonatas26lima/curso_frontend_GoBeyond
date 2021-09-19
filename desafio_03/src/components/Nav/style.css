@@ -1,0 +1,17 @@
+.nav{
+  margin-top: 45px;
+}
+
+.nav-bar ul{
+  display: flex;  
+}
+
+.nav-bar a{
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0 .2rem;
+  background-color: #8891b9;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;  
+}
