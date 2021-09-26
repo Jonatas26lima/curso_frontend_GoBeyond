@@ -1,0 +1,78 @@
+header{
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__menu--list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin-right: 4.4375rem;
+}
+
+.nav__menu--list--item a{
+  padding: 10px;
+  font-size: 1.5625rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav__logo{
+  margin-top: 3.4375rem;
+  margin-left: 5.0625rem;
+  width: 100%;
+  height: 3.04125rem;
+}
+
+
+.icon{
+  position: absolute;
+  z-index: 1000;
+  left: 1%;
+  width: fit-content;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.hamburger{
+  top: 20px ; 
+  right: 25px ;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(157, 76, 76);
+  position: absolute;
+  transition: 0.5s;
+}
+
+.hamburger::before{
+  top: -12px;
+  content: '';
+  right: 10%;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(135, 103, 103);
+  position: absolute;
+  transition: 0.5s;
+}
+
+.hamburger::after{
+  top: 12px;
+  content: '';
+  right: 10%;
+  width: 30px;
+  height: 3px;
+  background-color: rgb(232, 25, 25);
+  position: absolute;
+  transition: 0.5s;
+}
+
+

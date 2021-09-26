@@ -1,0 +1,107 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  height: 220px;   
+  background-color: aliceblue; 
+}
+
+/*---==== left ====----*/
+
+.footer_left{
+  display: flex;
+  align-items: center;  
+}
+
+.nav__footer--list{
+  list-style: none;
+  width: 100%;
+}
+
+.nav__footer--list--item a{
+  padding: 10px;
+  color: #000000;
+}
+
+.nav__footer--logo{
+  width: 200px;
+  margin-left: 81px;    
+}
+
+.nav__footer--logo p{
+  margin-top: 13px;
+  font-weight: 700;    
+}
+
+.footer__social{
+  display: flex;
+  gap: 13px;
+  margin-top: 46px;
+  color: #000000;
+}
+
+.footer__social a{
+  color: #000000;
+}
+
+.nav__footer--content{
+  width: 159px;
+  margin-left: 70px;
+  margin-right: 132px; 
+}
+
+.nav__footer--list--item {
+  height: 33px;
+  margin-top: 5px;
+  border-bottom: 1px solid #000000;  
+}
+
+
+
+
+/*----==== right =====-----*/
+
+.footer__right--locals{
+  background: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 220px;
+  column-gap: 25px; 
+  
+}
+
+.footer__right--locals p {
+  margin-top: 18px;
+  font-weight: 500;    
+}
+
+.footer_locals--brasil {
+  margin-left: 100px;
+  margin-top: 35px;
+  width: 210px; 
+}
+
+.footer_locals--argentina {
+  margin-left: 50px;
+  margin-top: 32px;
+  width: 152px; 
+}
+
+.footer_locals--mexico {
+  margin-left: 86px;
+  margin-top: 32px;
+  width: 244px; 
+}
+
+.footer_locals--chile {
+  margin-left: 50px;
+  margin-right: 105px;
+  margin-top: 30px;
+  width: 83px; 
+}
+
+
+
+
